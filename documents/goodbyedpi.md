@@ -1,3 +1,7 @@
+# goodbyedpi.md
+
+`goodbyedpi.md` was prepared only for Russian community, as problem with DPI is being extremely active in Russia.
+
 # Что такое GoodbyeDPI?
 
 **GoodbyeDPI** – это программа написанная на C, бла-бла-бла.. это нас не особо волнует, главное что она делает. Роскомнадзор и многие провайдеры используют [Deep Packet Inspection](https://ru.wikipedia.org/wiki/Deep_packet_inspection) для блокировки многих сайтов и не только, и эта программа обходит именно этот протокол/защиту, возобновляя доступ к многим заблокированным сайтам, чёрным и серым.
@@ -13,7 +17,7 @@
 - С недавних пор, это затрагивает и мобильные устройства, имеются решения на данный момент.
   - [ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid/) не требуется root-права на телефон
   - [DPITunnel](https://github.com/nomoresat/DPITunnel-android) требуются root-права на телефон
-  
+
 ## Советы
 
 - `1_russia_blacklist_dnsredir.cmd` может не помочь для многих провайдеров в плане обхода замедления YouTube'a, в этом случае, вам надо открыть `1_russia_blacklist.cmd`, который не перенаправляет DNS-запросы через сторонние сервера, для браузеров которые были сделаны на основе Chrome, нужно отключить поддержку шифронабора Kyber, открыв это во вкладке `chrome://flags`, и в поиске найдя по ключевому слову Kyber, больше информации можно прочитать здесь
